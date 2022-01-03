@@ -1,3 +1,3 @@
 # Magreão News
  
-site fake for my friends
+fake site for my friends
