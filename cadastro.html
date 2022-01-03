@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magrelão - Cadastro</title>
+  <link rel="shortcut icon" href="/imagens/ícone.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body> 
+ <!--Cabeçalho-->
+  <header id = "cabecalho"> 
+    <hgroup>
+      <h1>Magrelão</h1>
+      <h2>As melhores notícias da sua cidade</h2>
+      <h3>Por Juanzin </h3>    
+    </hgroup>
+    <div id = "logo">
+      <a href="Index.html"><img src="/imagens/símbolo-novo.png" alt=""></a>
+    </div>
+  <!--Menu principal-->
+  <nav id = "menu">
+    <h1>Menu Principal</h1>
+      <ul>
+        <li>|<a href="index.html">&nbsp;&nbsp;Home</a>&nbsp; |</li>
+        <li><a href="noticias.html">Notícias</a>&nbsp; |</li>
+        <li><a href="cadastro.html">Cadastro</a>&nbsp; |</li>
+        <li><a href="contato.html">Contato</a>&nbsp; |</li>
+      </ul>  
+  </nav>
+<!--Fim do menu-->
+</header>
+
+<div id = "interface">
+<!--área de cadastro-->
+  <h2 id = "cab1">Cadastro</h2>
+<!--Informações pessoais-->
+  <form action="#" method="#" id="fContato">
+  <fieldset>
+    <legend class = "maior"><p>Informações pessoais</p></legend>
+    
+    <p><label for="cNom">Nome:</label><input type="text" name="tNom" id="cNom" placeholder="Seu nome" required></p>
+
+    <p><label for="cUsu">Usuário:</label><input type="text" name="tUsu" id = "cUsu" placeholder="Seu nome de usuário"required ></p>
+
+    <p><label for="cSen">Senha:</label><input type="password" name="tSen" id = "cSen" placeholder="Sua senha" required></p>
+
+    <p><label for="cIda">Idade:</label><input type="date" name="tIda" id="cIda" required></p>
+
+  <fieldset id = "sexo">
+  <legend><p><label>Sexo:</label></p></legend>
+
+    <p><input type="radio" name="tSex" id="cMas"><label for="cMas">Masculino</label></p>
+    <p><input type="radio" name="tSex" id="cFem"><label for="cFem">Feminino</label></p>
+    <p><input type="radio" name="tSex" id="cGay" checked><label for="cGay">Gay</label></p>
+    <p>Quanto:</p>
+    Pouco<input type="range" min="0" max="10" step="5">Muito
+</fieldset>
+  <br>  
+  <fieldset id = "novidade">
+  <P><u>Deseja receber novidades no email?</u></P>
+  <p class = "escolha"><input type="radio" name="tEsc" id = "cSim">Sim</p>
+  <p class = "escolha"><input type="radio" name="tEsc" id = "cNao">Não?(Sim)</p>  
+  </fieldset>
+
+  <p><label for="cAss">Por que quer se cadastrar:</label>
+<textarea placeholder="Porque sim não é resposta arrombado."></textarea></p>
+</fieldset>
+<br>
+
+<fieldset id="local">
+  <legend class = "maior"><p>Informações de contato</p></legend>
+
+  <p><label for="cMail">Email:<input name="tMail" id="cMail" placeholder="Seu email"></label></p>
+
+  <p><label for="cTel">Telefone:<input type = "number" name="tTel" id="cTel" placeholder="Seu telefone"></label></p>
+  
+  <p><label for="cEnd">Endereço:</label><input type="text" name="tEnd" id="cEnd" placeholder="Seu endereço"></p>
+
+  <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" placeholder="00"></p>
+
+  <p><label for="cEst">Seu estado:</label></p>
+  
+  <select name="cEst" id="tEst">
+    <optgroup label="Nordeste">
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="MP">Meu País</option>
+    <option value="JL">Julliet</option>
+  </optgroup>
+  </select>
+  <br><br>
+  <input type="submit">
+</fieldset>
+</form>
+
+
+
+
+
+<!--Início do rodapé-->
+<footer id = "rodape">
+  <p>&copy;Copyright - Juanzin</p>
+  <p><a href="http://twitter.com/JuanVitrioDutr2" target="_blank">Twitter</a> | <a href="http://www.instagram.com/juanvitorio_" target="_blank">Instagram</a></p>
+  </footer>
+  </div>
+  </body>
+  </html>

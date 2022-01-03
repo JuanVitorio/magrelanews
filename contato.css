@@ -1,0 +1,66 @@
+h1#contat{
+  font-size: 60pt;
+  color:#a5a5a5;
+  background: linear-gradient(rgb(231, 231, 231), #cacaca);
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 1px 1px 1px black;
+}
+
+a{
+  text-decoration: none;
+  color: #5f5f5f;
+}
+
+#contatos h2{
+font-size: 25pt;
+font-family: KeepCalm;
+padding: 10px;
+margin-top: 10px;
+color: #888888;
+text-shadow: 1px 1px 1px black;
+}
+
+#contatos h2#esse{
+  padding: 20px 0 40px 0;
+}
+
+#contatos p{
+  color: #5f5f5f;
+  padding: 5px;
+}
+
+fieldset{ 
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background: url(/imagens/carta.png) no-repeat 90% 60%;
+  border-radius: 5px;
+}
+
+div#redes-soc{
+text-align: center;
+margin-bottom: 20px;
+border-top: 1px solid rgb(173, 173, 173);
+}
+
+div.grupo p{
+ display: inline-block;
+ margin-bottom: 20px;
+ -webkit-transition: all .25s ease-in;
+}
+
+div.grupo p:hover{
+text-decoration: underline;
+-webkit-transform: scale(1.2);
+color: rgb(173, 173, 173);
+ }
+
+div.grupo img{
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}

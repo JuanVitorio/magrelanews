@@ -1,0 +1,237 @@
+/*Fomatação básica*/
+@charset "UTF-8";
+
+@font-face {
+  font-family:'KeepCalm';
+  src: url(/fontes/KeepCalm-Medium.ttf);
+}
+@font-face {
+  font-family:'titulo';
+  src: url(/fontes/Avestrava\ Tattoo\ Personal\ Use\ Only.ttf );
+}
+*{
+  margin: 0;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+body{
+  color: #242424;
+  font-weight: 300px;
+  background-color: #e2e2e2;
+}
+
+/*Formatando a interface*/
+
+div#interface{
+  width: 1100px;
+  padding: 20px;
+  margin: 0px auto 0px  auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px grey;
+}
+
+/*Formatando os títulos da interface*/
+
+div#interface h1#divi{
+  border-bottom: 1px solid rgb(0, 0, 0,.5);
+  text-align: center;
+  color: #5a5a5a;
+  font-size: 40pt;
+  padding: 0 0 20px 0;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*Fomatação do cabeçalho*/
+
+header#cabecalho {
+  padding: 5px 30px 5px 30px;
+  border-bottom:1px solid black ;
+  height: 150px;
+  background-image: linear-gradient( 180deg, #d3cece, #a9a8af);
+  /*background-color: #cbcad0;*/
+  padding-bottom:20px ;
+}
+
+header#cabecalho div#logo img{
+position: absolute;
+top: 10px;
+left: 810px;
+}
+
+header#cabecalho hgroup h1{
+  font-size: 100pt;
+  padding-top:5px ;
+  font-family: KeepCalm, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  padding-left: 60px;
+}
+
+header#cabecalho hgroup h2{
+font-size: 15pt;
+position: absolute;
+font-family: KeepCalm, Helvetica, sans-serif;
+left: 360px;
+top: 137px;
+background-color: #d6d6d6;
+padding: 2px;
+border-radius: 5px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+color: #6b6b6b;
+}
+
+header#cabecalho hgroup h3{
+  position: relative;
+  text-align: end;
+  top: -40px;
+  left: 0px;
+  color: rgba(0, 0, 0, .3);  
+  text-shadow:1px 1px 1px grey ;
+}
+
+/*Formatando o menu do cabeçalho*/
+
+nav#menu{
+  display:block;
+}
+
+nav#menu ul{
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0px;
+  left: 1300px;
+}
+
+nav#menu li{
+  display: inline-block;
+  padding: 4px;
+  font-size: 18pt;
+}
+
+nav#menu h1{
+  display: none;
+}
+
+nav#menu a{
+  text-decoration: none;
+  color: #858585;
+  transition: color .25s;
+}
+
+nav#menu a:hover{
+  color: #ffffff;
+}
+
+/*Formatando o section*/
+
+section#corpo{
+  display: block; 
+  width: 600px;
+  float: left;
+  border-right: 1px solid grey;
+  padding-right: 30px;
+}
+
+section#corpo h1{
+padding: 10px;
+font-size: 30pt;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+section#corpo h1#noticiaprin{
+  font-size: 18pt;
+  background-color: #c0c0c0;
+  font-family: none;
+  box-shadow: 1px 1px 1px black;
+}
+
+section#corpo h2{
+  font-size: 18pt;
+  background-color: #c0c0c0;
+  padding: 10px;
+  box-shadow: 1px 1px 1px black;
+}
+
+section#corpo p.citacao{
+  font-size: 11.5pt;
+  padding: 15px;
+  background-color: #b3b3b3;
+  box-shadow: 1px 1px 1px black;
+}
+
+section#corpo h3.reporter{
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  color: rgba(0, 0, 0, .5);
+}
+
+/*Formatando o aside*/
+
+aside#lateral {
+  display: block;
+  float: right;
+  width: 420px;
+  margin:20px ;
+}
+
+aside#lateral h1{
+padding: 12px;
+background-color: #b3b3b3;
+box-shadow: 1px 1px 1px black;
+}
+
+aside#lateral h3#expli{
+  padding: 5px;
+  background-color:#b3b3b3;
+  box-shadow: 1px 1px 1px black;
+}
+
+aside#lateral h3.reporter{
+  margin-top:30px ;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  color: rgba(0, 0, 0, .5);
+}
+
+/*Formatando o footer*/
+
+footer#rodape{
+  padding: 15px;
+  border-top: 1px solid grey;
+  clear:both;
+}
+
+footer#rodape p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer#rodape a{
+text-decoration: none;
+color: #858585;
+}
+
+video#teste{
+width: 400px;
+padding: 5px;
+margin-left: 6px;
+box-shadow: 1px 1px 3px black;
+}
+
+p#assunto{
+  padding-top: 10px;
+}
+
+audio#relato{
+  padding-left: 60px;
+}

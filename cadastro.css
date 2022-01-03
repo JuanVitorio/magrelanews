@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+legend.maior{
+  text-align: center;
+}
+
+legend.maior p{
+  font-size: 20pt;
+  font-family: KeepCalm, sans-serif;
+  color:rgb(126, 126, 126);
+}
+
+fieldset{
+  width: 600px;
+  margin: auto;
+  border-color:rgb(195, 195, 195) ;
+  border-radius: 5px;
+}
+
+fieldset p{
+  color: rgb(141, 141, 141);
+  padding: 10px;
+}
+
+input{
+  margin-left: 5px;
+}
+
+input:hover, textarea:hover{
+  background-color: rgb(240, 240, 240);
+  border-color: white;
+  transition: 0.2s;
+}
+
+textarea{
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 95%;
+  height:150px;
+}
+
+input[type = "submit"]{
+padding: 10px;
+margin-left: 30px;
+font-family: sans-serif;
+transition: 0.3s;
+
+}
+
+input[type = "submit"]:hover{
+background: linear-gradient(90deg, rgb(214, 214, 214) ,rgb(156, 156, 156) );
+
+  }
+
+  h2#cab1{
+    color: #b3b3b3;
+    font-size: 60pt;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    background: linear-gradient(rgb(231, 231, 231), #cacaca);
+    box-shadow: 1px 1px 1px black;
+  }
+
+  select#tEst{
+    margin-left:30px;
+  }
+
+  fieldset p.escolha{
+    display: inline;
+    margin-left: 30px;
+  }
+
+  #local{
+    margin-bottom: 40px;
+  }
