@@ -1,3 +1,7 @@
+@font-face {
+  font-family: KeepCalm;
+  src: url(/fontes/KeepCalm-Medium.ttf);
+}
 h1#boas{
   text-align: center;
   color: rgb(73, 73, 73);
@@ -49,7 +53,7 @@ div#butoes{
   
   header#cadastro h1{
   font-size: 70pt;
-  font-family: KeepCalm;
+  font-family: KeepCalm, sans-serif;
   display: inline-block;
   
   }
