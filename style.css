@@ -74,6 +74,12 @@ header#cabecalho hgroup h1{
   padding-left: 60px;
 }
 
+header#cabecalho hgroup h1 a{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+  text-decoration:none ;
+}
+
 header#cabecalho hgroup h2{
 font-size: 15pt;
 position: absolute;
@@ -226,6 +232,11 @@ width: 400px;
 padding: 5px;
 margin-left: 6px;
 box-shadow: 1px 1px 3px black;
+}
+
+video#teste:hover{
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 p#assunto{
